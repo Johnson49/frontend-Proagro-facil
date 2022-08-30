@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+
+.fundo {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    display: none;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #fff;
+  }
+
+  .modalTitulo {
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 94, 108);
+  }
+
+  .modalTitulo img {
+    width: 80px;
+  }
+
+
+  .modalInfo {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+  }
+
+  .modalBotoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .modalBotoes button {
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: none;
+
+    background-color: rgb(238, 183, 17);
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .modalBotoes button:hover{
+    background: rgb(192, 146, 8);
+  }
+  .modalBotoes .btConf{
+    padding: 13px 55px;
+
+  }

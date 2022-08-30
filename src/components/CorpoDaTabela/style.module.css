@@ -1,0 +1,19 @@
+.container {
+    border-radius: 8px;
+    /* padding: 1.2rem 0.7rem 0.5rem; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    width: 95%;
+    height: 87vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: .8rem auto 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }

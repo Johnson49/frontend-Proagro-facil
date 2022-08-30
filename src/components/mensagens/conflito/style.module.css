@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.fundo {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    display: block;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  
+
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #fff;
+  }
+
+  .modalTitulo {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 94, 108);
+  }
+
+  .modalTitulo img {
+    width: 110px;
+    position: relative;
+  }
+
+
+
+  .modalInfo {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+  }
+  .modalInfo p strong{
+    display: block;
+    font-size: 1.4rem;
+  }
+  .modalBotao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .modalBotao button {
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(252, 190, 5);
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  .modalBotao .fechar{
+    padding: 13px 60px;
+}
+.modalBotao button:hover{
+  
+    background-color: rgb(197, 149, 6);
+  }

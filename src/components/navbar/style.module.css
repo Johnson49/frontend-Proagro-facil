@@ -1,0 +1,17 @@
+.nav{
+    /* border: 1px solid ; */
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.nav .add a svg{
+    color: rgb(29, 94, 17);
+    font-size: 2.2rem;
+}
+.nav .pasta a svg{
+    color: rgb(195, 206, 39);
+    font-size: 2.2rem;
+}

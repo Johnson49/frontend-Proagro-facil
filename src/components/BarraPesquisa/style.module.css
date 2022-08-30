@@ -1,0 +1,37 @@
+.areaPesquisa {
+    width: 100%;
+    margin-bottom: .1rem;
+  }
+
+  .areaPesquisa form {
+    padding-right: 17px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .areaPesquisa form .campoDePesquisa input {
+    border: none;
+    padding: 7px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    width: 30rem;
+    outline: none;
+    font-size: 1rem;
+    height: 2rem;
+  }
+
+  .areaPesquisa form .botaoPesquisa button {
+    cursor: pointer;
+    padding: 7px;
+    border: 1px solid gray;
+    border: none;
+    text-align: center;
+    background: none;
+  }
+
+  .areaPesquisa form .botaoPesquisa button img {
+    width: 28px;
+    top: 3px;
+    position: relative;
+  }
