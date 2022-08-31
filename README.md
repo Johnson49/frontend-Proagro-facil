@@ -33,4 +33,4 @@ $ npm run dev
 ## Deploy da Aplicação 
 > https://database-loss-communication.web.app/
 
-:warning: Por uma razão ainda desconhecida, quando se acessa a página de detalhes dos comunicados ou de atualização, o evento ocorrido não aparece, sendo mais preciso, o <strong >checked do radio button</strong >. Esse erro só acontece no deploy, no projeto esse erro não existe. Então recomendo clonarem o projeto e rodarem localmente para que isso possa ser comprovado. A aplicação é alimentada por uma API com deploy no Heroku. 
+:warning: Por uma razão ainda desconhecida, quando se acessa a página de detalhes dos comunicados ou de atualização, o evento ocorrido não aparece, sendo mais preciso, o <strong >checked do radio button</strong >. Esse erro só acontece no deploy, no projeto esse erro não existe. Então recomendo clonar o projeto e rodar localmente para que isso possa ser comprovado. A aplicação é alimentada por uma API com deploy no Heroku. 
