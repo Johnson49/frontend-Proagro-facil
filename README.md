@@ -1,36 +1,36 @@
 # Frontend do programa Proagro Fácil
 
-> Status do Projeto: :heavy_check_mark: Projeto concluído.
+Frontend do sistema de comunicação de perda do programa Proagro fácil. Backend [Aqui](https://github.com/Johnson49/backend-Proagro-facil).
+
+<br>
 
 <p align="center">
  <img width="600" src="https://github.com/Johnson49/frontend-Proagro-facil/blob/main/src/assets/img/gif-Proagro-facil.gif"> 
 </p>
 
-## Informações gerais
-Frontend do sistema de comunicação de perda do programa Proagro fácil. Backend [aqui](https://github.com/Johnson49/backend-Proagro-facil).
 
+## Começando
 
-## Tecnologias 
-O projeto é criado com:
+### Clone o projeto
 
-* Node JS
-* JavaScript 
-* ReactJS
-* CSS
+```
+git clone https://github.com/Johnson49/frontend-Proagro-facil
+```
 
+#### Adentre no diretório 
 
-## Setup: 
-> Para rodar este projeto, clone localmente e depois instale as dependências com um gerenciador de sua preferência.
+```shell
+cd frontend-Proagro-facil
+```
 
-```javascript
-$ git clone https://github.com/Johnson49/frontend-Proagro-facil
-$ cd frontend-Proagro-facil
-$ npm install 
-$ npm run dev
-```  
+####  Instale as dependências
 
+```node
+npm install 
+```
 
-## Deploy da Aplicação 
-> https://database-loss-communication.web.app/
+##  Inicie o servidor 
 
-:warning: Por uma razão ainda desconhecida, quando se acessa a página de detalhes dos comunicados ou de atualização, o evento ocorrido não aparece, sendo mais preciso, o <strong >checked do radio button</strong >. Esse erro só acontece no deploy, no projeto esse erro não existe. Então recomendo clonar o projeto e rodar localmente para que isso possa ser comprovado. Não há necessidade de se preocupar com os dados, já que a aplicação é alimentada por uma API com deploy no Heroku. 
+```
+ npm run dev
+```
